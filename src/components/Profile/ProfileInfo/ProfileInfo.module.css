@@ -1,0 +1,16 @@
+.descriptionBlock{
+    padding: 10px;
+    display: flex;
+}
+
+.info{
+    padding: 10px;
+}
+
+.icon{
+    height: 30px
+}
+
+.profileImage {
+    max-width: 300px;
+}

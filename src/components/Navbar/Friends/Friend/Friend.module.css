@@ -1,0 +1,11 @@
+.item img{
+    width: 80px;
+}
+
+.item p{
+    text-align: center;
+}
+
+.item{
+    margin: 0 15px;
+}

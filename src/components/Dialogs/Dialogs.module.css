@@ -1,0 +1,73 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.dialogsItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogsItems .active{
+    background-color: #f7f7f7;
+}
+
+.dialog{
+    font-size: 1.3em;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+    text-decoration: none;
+    color: gray;
+}
+
+.dialog:last-child{
+    border-bottom: none;
+}
+
+.dialog:hover{
+    background-color: #f7f7f7;
+    cursor: pointer;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+
+.messages{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.chat{
+    display: grid;
+    height: calc(100vh - 100px);
+    grid-template-rows: 10fr 1fr;
+}
+
+.controls{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+
+.controls__input{
+    font-size: 25px;
+}
+
+
+
+.message{
+    align-self: flex-start;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    min-width: 50px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px 5px 5px 0;
+}
+
+.message.right{
+    align-self: flex-end;
+    background-color: cadetblue;
+    border-radius: 5px 5px 0 5px;
+}
