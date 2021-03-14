@@ -1,0 +1,10 @@
+.usersPhoto{
+    width: 100px;
+}
+
+
+.pageSwitcher{
+    display: inline;
+    overflow-x: scroll;
+    line-break: loose;
+}

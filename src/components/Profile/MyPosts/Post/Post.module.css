@@ -1,0 +1,29 @@
+.dialog{
+    margin-top: 10px;
+}
+
+.dialog img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.message{
+    margin: 15px;
+    font-size: 1.2em;
+}
+
+.likeBtn{
+    color: #ED4956;
+    font-size: 1.5em;
+}
+
+.likeBtn span{
+    font-size: 0.7em;
+    color: slategrey;
+}
+
+.postContainer{
+    display: flex;
+    align-items: flex-start;
+}

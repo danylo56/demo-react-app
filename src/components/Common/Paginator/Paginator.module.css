@@ -1,0 +1,16 @@
+.pageBox {
+    display: inline-block;
+    min-width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 0 2px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pageBox.selected {
+    background-color: black;
+    color: white;
+}

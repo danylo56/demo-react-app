@@ -1,0 +1,28 @@
+.nav{
+    grid-area: n;
+    background-color: dodgerblue;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.item a:hover{
+    color: #ff2;
+}
+
+.item a.active{
+    color: #ff2;
+    font-weight: bold;
+}
